@@ -12,4 +12,4 @@
  3 function to display animal list and has an eventlistener
  4function which displays animalname,image&votecount
  5 added abutton and in it there is addeventlisterner.
- 6 reset button that resets the votes
+ 6 reset button that resets the votes# code-challenge-2

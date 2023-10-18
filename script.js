@@ -1,4 +1,4 @@
-const baseURL = 'http://localhost:3000/characters'
+const baseURL = 'https://my-json-server.typicode.com/mohammedsalad123/code-challenge-2/characters'
 fetch(baseURL)
 .then(res => res.json())
 .then(data=>{displayAnimalsLists(data)})
@@ -32,7 +32,8 @@ function displayAnimalDetails(animal){
 
     const animalImage = document.createElement('img');
     animalImage.src = animal.image;
-
+    animalImage.style.height="100PX"
+    animalImage.style.width="200PX"
     const voteCount = document.createElement('p');
     voteCount.textContent = `Votes: ${animal.votes}`;
 
